@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FILI PC</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__logo">
+          <a href="#hro" class="header__link">
+            <img
+              aria-label="На главную"
+              src="./assets/images/svg/logo.svg"
+              alt="Логотип"
+              class="header__logo-image"
+            />
+
+             <!-- Другое лого для мобильной версии -->
+            <img
+              src="./assets/images/svg/logo-mobile.svg"
+              alt="Логотип"
+              class="header__logo-image-mobile"
+            />
+          </a>
+        </div>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">Условия</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Комплектации</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="header__button" type="button">Оформите заявку</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">Купите компьютер вашей мечты</h1>
+
+            <p class="hero__text">
+              Кастомные компьютеры <br class="hero__text-break">на премиальных комплектующих
+            </p>
+
+            <button class="hero__button" type="button">
+              Перейти к вариантам
+            </button>
+          </div>
+
+          <img
+            src="./assets/images/png/hero-pc.png"
+            alt="Белый компьютер"
+            class="hero__image"
+          />
+        </div>
+      </section>
+
+      <section class="steps">
+        <div class="container steps__container">
+          <h2 class="steps__title">
+            <span class="steps__highlight">FILI PC</span> сопроводит вас на всех
+            этапах покупки
+          </h2>
+
+          <p class="steps__description">
+            Мы не просто продаём кастомные компьютеры высокого качества из
+            премиальных комплектующих, но и сопровождаем клиента от этапа выбора
+            комплектации до послегарантийного обслуживания.
+          </p>
+
+          <ul class="steps__list">
+            <li class="steps__item steps__item--featured-one">
+              <div class="steps__top">
+                <span class="steps__number">01</span>
+
+                <div class="steps__content">
+                  <h3 class="steps__item-title">Подбор комплектации</h3>
+
+                  <p class="steps__item-text steps__item-text--featured-one">
+                    Ваш персональный менеджер поможет с выбором подходящей
+                    именно вам комплектации на основе ваших пожеланий и задач.
+                  </p>
+                </div>
+              </div>
+
+              <img
+                src="./assets/images/png/components.png"
+                alt="Комплектующие"
+                class="steps__image"
+              />
+            </li>
+
+            <div class="steps__column">
+              <li class="steps__item steps__item--featured-two">
+                <span class="steps__number">02</span>
+
+                <div class="steps__content">
+                  <h3 class="steps__item-title">Заявка</h3>
+
+                  <p class="steps__item-text">
+                    Как только вы определитесь с комплектацией, начнётся
+                    <span class="steps__accent">производство</span>.
+                  </p>
+                </div>
+              </li>
+
+              <li class="steps__item steps__item--featured-five">
+                <span class="steps__number">05</span>
+
+                <div class="steps__content">
+                  <h3 class="steps__item-title">Тестирование</h3>
+
+                  <p class="steps__item-text steps__item-text--featured-five">
+                    Ваш собранный ПК проходит тестирование под нагрузкой для
+                    проверки
+                    <span class="steps__accent">по 30 параметрам</span>.
+                  </p>
+                </div>
+              </li>
+
+              <li class="steps__item steps__item--featured-six">
+                <span class="steps__number">07</span>
+
+                <div class="steps__content">
+                  <h3 class="steps__item-title">Гарантия</h3>
+
+                  <p class="steps__item-text steps__item-text--featured-six">
+                    Мы предоставляем гарантию
+                    <span class="steps__accent">3 года</span>
+                    на ваш ПК, а также осуществляем
+                    <span class="steps__accent">постгарантийное</span>
+                    обслуживание.
+                  </p>
+                </div>
+              </li>
+            </div>
+
+            <div class="steps__column">
+              <li class="steps__item steps__item--featured-three">
+                <span class="steps__number">03</span>
+
+                <div class="steps__content">
+                  <h3 class="steps__item-title">Оплата</h3>
+
+                  <p class="steps__item-text">
+                    Вы можете
+                    <span class="steps__accent">оплатить</span>
+                    заказ любым удобным для вас способом.
+                  </p>
+                </div>
+              </li>
+
+              <li class="steps__item steps__item--featured-four">
+                <span class="steps__number">04</span>
+
+                <div class="steps__content">
+                  <h3 class="steps__item-title">Производство</h3>
+
+                  <p class="steps__item-text steps__item-text--featured-four">
+                    К моменту оплаты все необходимые комплектующие уже будут
+                    доставлены на производство. Сборка вашего кастомного
+                    компьютера займет
+                    <span class="steps__accent">не более 3 рабочих дней</span>.
+                  </p>
+                </div>
+              </li>
+
+              <li class="steps__item steps__item--featured-seven">
+                <span class="steps__number">06</span>
+
+                <div class="steps__content">
+                  <h3 class="steps__item-title">Доставка</h3>
+
+                  <p class="steps__item-text steps__item-text--featured-seven">
+                    Доставим ваш заказ по России
+                    <span class="steps__accent">от 2 до 7 дней</span>.
+                  </p>
+                </div>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </section>
+
+      <section class="process">
+        <div class="container process__container">
+          <h2 class="process__title">
+            <span class="process__accent">FILI PC</span> сопроводит вас на всех этапах покупки
+          </h2>
+          <p class="process__description">
+            Мы не просто продаём кастомные компьютеры высокого качества из
+            премиальных комплектующих, но и сопровождаем клиента от этапа выбора
+            комплектации до послегарантийного обслуживания.
+          </p>
+
+          <img
+            src="./assets/images/png/main-pc.png"
+            alt="Компьютер"
+            class="process__image"
+          />
+        </div>
+      </section>
+
+      <section class="catalog">
+        <div class="container catalog__container">
+          <div class="catalog__promo">
+            <img src="./assets/images/svg/speed.svg" alt="Скорость" class="catalog__promo-icon" />
+
+            <h2 class="catalog__promo-title">Супер скорость</h2>
+
+            <p class="catalog__promo-text">
+              Несколько готовых решений на выбор с возможностью кастомизации
+            </p>
+          </div>
+
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <img src="./assets/images/png/first-pc.png" alt="Зеленый компьютер" class="catalog__image" />
+
+              <h3 class="catalog__name catalog__name--custom-one">Optima</h3>
+
+              <p class="catalog__description">
+                Оптимальное универсальное решение
+              </p>
+
+              <p class="catalog__specs"><span class="catalog__specs-outline">Intel Core i7</span> + <span class="catalog__specs-outline">3060Ti</span></p>
+
+              <p class="catalog__price">от 90 000 ₽</p>
+            </li>
+
+            <li class="catalog__item">
+              <img src="./assets/images/png/second-pc.png" alt="Синий компьютер" class="catalog__image" />
+
+              <h3 class="catalog__name">Optima</h3>
+
+              <p class="catalog__description">
+                Оптимальное универсальное решение
+              </p>
+
+              <p class="catalog__specs"><span class="catalog__specs-outline-mobile">Intel Core i7</span> + <span class="catalog__specs-outline-mobile">3060Ti</span></p>
+
+              <p class="catalog__price">от 90 000 ₽</p>
+            </li>
+
+            <li class="catalog__item">
+              <img src="./assets/images/png/third-pc.png" alt="Фиолетовый компьютер" class="catalog__image" />
+
+              <h3 class="catalog__name">Optima</h3>
+
+              <p class="catalog__description">
+                Оптимальное универсальное решение
+              </p>
+
+              <p class="catalog__specs"><span class="catalog__specs-outline-mobile">Intel Core i7</span> + <span class="catalog__specs-outline-mobile">3060Ti</span></p>
+
+              <p class="catalog__price">от 90 000 ₽</p>
+            </li>
+
+            <li class="catalog__item catalog__item--custom">
+              <img src="./assets/images/png/fourth-pc.png" alt="Белый компьютер" class="catalog__image" />
+
+              <h3 class="catalog__name catalog__name--custom-two">Кастомные ПК под ваши задачи</h3>
+
+              <p class="catalog__price catalog__price--main">от 120 000 ₽</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="preorder__area">
+      <section class="preorder">
+        <div class="container preorder__container">
+
+            <h2 class="preorder__title">Предварительный заказ</h2>
+
+            <form class="preorder__form">
+                <div class="preorder__field">
+                    <label class="preorder__label">Ваше имя</label>
+                    <input type="text" class="preorder__input" placeholder="Михаил">
+                </div>
+                <div class="preorder__field">
+                    <label class="preorder__label">Телефон</label>
+                    <input type="tel" class="preorder__input" placeholder="+79999999999">
+                </div>
+                <div class="preorder__field">
+                    <label class="preorder__label">Почта</label>
+                    <input type="email" class="preorder__input" placeholder="mail@gmail.com">
+                </div>
+
+                <div class="preorder__field">
+                    <p class="preorder__label preorder__label--custom">Комплектация</p>
+
+                    <ul class="preorder__options">
+
+                        <li class="preorder__option">
+                            <label class="preorder__card">
+                                <input type="radio" name="pc" class="preorder__radio">
+
+                                <div class="preorder__card-content">
+                                    <div class="preorder__info">
+                                        <h3 class="preorder__name">Optima</h3>
+                                        <p class="preorder__specs">
+                                            <span class="preorder__specs--custom">Intel Core i7</span> + <span class="preorder__specs--custom">3060Ti</span>
+                                        </p>
+                                    </div>
+
+                                    <img
+                                        src="./assets/images/png/mini-pc.png"
+                                        alt="Optima"
+                                        class="preorder__image"
+                                    >
+                                </div>
+                            </label>
+                        </li>
+
+                        <li class="preorder__option">
+                            <label class="preorder__card">
+                                <input type="radio" name="pc" class="preorder__radio">
+
+                                <div class="preorder__card-content">
+                                    <div class="preorder__info">
+                                        <h3 class="preorder__name">Optima</h3>
+                                        <p class="preorder__specs">
+                                            Intel Core i7 + 3060Ti
+                                        </p>
+                                    </div>
+
+                                    <img
+                                        src="./assets/images/png/mini-pc.png"
+                                        alt="Optima"
+                                        class="preorder__image"
+                                    >
+                                </div>
+                            </label>
+                        </li>
+
+                        <li class="preorder__option">
+                            <label class="preorder__card">
+                                <input type="radio" name="pc" class="preorder__radio">
+
+                                <div class="preorder__card-content">
+                                    <div class="preorder__info">
+                                        <h3 class="preorder__name">Optima</h3>
+                                        <p class="preorder__specs">
+                                            Intel Core i7 + 3060Ti
+                                        </p>
+                                    </div>
+
+                                    <img
+                                        src="./assets/images/png/mini-pc.png"
+                                        alt="Optima"
+                                        class="preorder__image"
+                                    >
+                                </div>
+                            </label>
+                        </li>
+
+                        <li class="preorder__option">
+                            <label class="preorder__card">
+                                <input type="radio" name="pc" class="preorder__radio">
+
+                                <div class="preorder__card-content">
+                                    <div class="preorder__info">
+                                        <h3 class="preorder__name">Optima</h3>
+                                        <p class="preorder__specs">
+                                            Intel Core i7 + 3060Ti
+                                        </p>
+                                    </div>
+
+                                    <img
+                                        src="./assets/images/png/mini-pc.png"
+                                        alt="Optima"
+                                        class="preorder__image"
+                                    >
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="preorder__note">
+                    После оставления заявки с вами свяжется специалист и подберёт для вас компьютер
+                </p>
+
+                <button class="preorder__button">
+                    Отправить заявку
+                </button>
+            </form>
+        </div>
+      </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <address class="footer__contacts">
+          <p class="footer__contacts-item">ООО "ФИЛИ-ПК"</p>
+
+          <p class="footer__contacts-item">
+            г.Москва, Багартионовский проезд, 11
+          </p>
+
+          <a href="#" class="footer__contacts-link">support@filipc.ru</a>
+        </address>
+
+        <div class="footer__logo">
+          <a href="#hro" class="footer__link">
+            <img
+              src="./assets/images/svg/logo.svg"
+              alt="Логотип"
+              class="footer__logo-image"
+            />
+
+            <!-- Другое лого для мобильной версии -->
+            <img
+              src="./assets/images/svg/logo-mobile.svg"
+              alt="Логотип"
+              class="footer__logo-image-mobile"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
